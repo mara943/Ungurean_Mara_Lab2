@@ -6,4 +6,6 @@ public class Ungurean_Mara_Lab2Context(DbContextOptions<Ungurean_Mara_Lab2Contex
     public DbSet<Book> Book { get; set; } = default!;
     public DbSet<Publisher> Publisher { get; set; } = default!;
     public DbSet<Author> Author { get; set; } = default!;
+    public DbSet<Category> Category { get; set; } = default!;
+    public DbSet<BookCategory> BookCategory { get; set; } = default!;
 }
